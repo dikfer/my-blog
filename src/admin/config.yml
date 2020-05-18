@@ -4,13 +4,13 @@ backend:
   name: github
   repo: dikfer/my-blog
   
-media_folder: "content/blog/images"
-public_folder: "/images"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "post"
     label: "Post"
-    folder: "content/blog/"
+    folder: "static/uploads"
     create: true
     slug: "{{slug}}"
     fields:
@@ -24,7 +24,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}  
   - name: "post_video"
     label: "Post_video"
-    folder: "content/blog/"
+    folder: "static/uploads"
     create: true
     slug: "{{slug}}"
     fields:
