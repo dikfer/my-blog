@@ -9,8 +9,8 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
-upload_dir: content/blog
+  new_doc_ext: md
+upload_dir: content/blog/images
 public_path: "/blog"
 front_matter_path: ''
 use_front_matter_path: false
