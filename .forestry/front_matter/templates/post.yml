@@ -29,3 +29,5 @@ fields:
 - type: file
   name: cover
   label: cover
+pages:
+- content/blog/новое-срочное-сообщение.md
