@@ -12,8 +12,8 @@ sections:
   new_doc_ext: md
 upload_dir: content/blog/images
 public_path: "./images"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: "/content/blog/images"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
