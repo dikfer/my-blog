@@ -27,7 +27,7 @@ fields:
   name: author
   label: author
   hidden: false
-  description: author2
+  description: Ввести author1
 - type: file
   name: cover
   label: cover
