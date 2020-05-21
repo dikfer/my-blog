@@ -12,9 +12,9 @@ sections:
   new_doc_ext: md
 upload_dir: content/blog/images
 public_path: "./images"
-front_matter_path: "/content/blog/images"
-use_front_matter_path: false
-file_template: ":year:, :month:, :day:/:filename:"
+front_matter_path: "./images"
+use_front_matter_path: true
+file_template: ":filename:"
 build:
   preview_output_directory: dist
   install_dependencies_command: npm install
