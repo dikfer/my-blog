@@ -5,19 +5,19 @@ fields:
 - type: text
   name: title
   label: title
-  description: 'Подсказка: введите название статьи'
+  description: Введите название статьи
 - type: text
   name: tags
   label: tags
-  description: 'Подсказка: введите тэги (ключевые слова)'
+  description: Введите тэги (ключевые слова)
 - type: text
   name: category
   label: category
-  description: 'Подсказка: введите название категории (тематики) статьи'
+  description: Введите название категории (тематики) статьи
 - type: text
   name: excerpt
   label: excerpt
-  description: 'Подсказка: введите краткое описание статьи'
+  description: Введите краткое описание статьи
 - type: datetime
   name: created
   label: created
@@ -25,18 +25,19 @@ fields:
 - type: file
   name: image
   label: image
+  description: Загрузите фото
 - type: text
   name: image_caption
   label: image_caption
-  description: 'Подсказка: описание фото'
+  description: Введите описание фото
 - type: text
   name: author
   label: author
   hidden: false
-  description: 'Подсказка: ввести author1'
+  description: Обязательно ввести author1
 - type: file
   name: cover
   label: cover
-  description: 'Подсказка: фото заставка'
+  description: Фото-заставка
 pages:
 - content/blog/новое-срочное-сообщение.md
