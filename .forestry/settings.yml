@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
@@ -16,11 +16,11 @@ front_matter_path: "./images"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
-  preview_docker_image: node:10
-  install_dependencies_command: npm install
-  instant_preview_command: npm start
-  mount_path: "/srv"
-  working_dir: "/srv/src"
-  preview_output_directory: "src/dist"
   preview_env:
   - ENV=staging
+  preview_output_directory: src/dist
+  install_dependencies_command: npm install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  working_dir: "/srv/src"
+  instant_preview_command: npm start
