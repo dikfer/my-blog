@@ -5,30 +5,40 @@ fields:
 - type: text
   name: title
   label: title
+  description: Введите название статьи
 - type: text
   name: tags
   label: tags
+  description: Введите тэги (ключевые слова)
 - type: text
   name: excerpt
   label: excerpt
-- type: datetime
-  name: date
-  label: date
-- type: file
-  name: image
-  label: image
-- type: text
-  name: image_caption
-  label: image_caption
-- type: text
-  name: author
-  label: author
-- type: file
-  name: cover
-  label: cover
-- type: text
-  name: video
-  label: video
+  description: Введите краткое описание статьи
 - type: text
   name: category
   label: category
+  description: Введите название категории (тематики) статьи
+- type: datetime
+  name: date
+  label: date
+  description: Дата публикации
+- type: file
+  name: image
+  label: image
+  description: Вставьте фото
+- type: text
+  name: image_caption
+  label: image_caption
+  description: Введите описание фото
+- type: text
+  name: author
+  label: author
+  description: Введите автора author1
+- type: file
+  name: cover
+  label: cover
+  description: введите фото-заставку
+- type: text
+  name: video
+  label: video
+  description: Введите адрес видеоролика на ютубе
