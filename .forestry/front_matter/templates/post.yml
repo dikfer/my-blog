@@ -9,9 +9,11 @@ fields:
 - type: text
   name: tags
   label: tags
+  description: 'Подсказка: введите тэги (ключевые слова)'
 - type: text
   name: category
   label: category
+  description: 'Подсказка: введите название категории (тематики) статьи'
 - type: text
   name: excerpt
   label: excerpt
