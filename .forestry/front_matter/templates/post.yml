@@ -5,6 +5,7 @@ fields:
 - type: text
   name: title
   label: title
+  description: 'Подсказка: введите название статьи'
 - type: text
   name: tags
   label: tags
@@ -14,15 +15,18 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
+  description: 'Подсказка: введите краткое описание статьи'
 - type: datetime
   name: created
   label: created
+  description: Дата создания поста
 - type: file
   name: image
   label: image
 - type: text
   name: image_caption
   label: image_caption
+  description: 'Подсказка: описание фото'
 - type: text
   name: author
   label: author
@@ -31,5 +35,6 @@ fields:
 - type: file
   name: cover
   label: cover
+  description: 'Подсказка: фото заставка'
 pages:
 - content/blog/новое-срочное-сообщение.md
