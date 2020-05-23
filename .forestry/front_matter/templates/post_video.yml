@@ -42,3 +42,5 @@ fields:
   name: video
   label: video
   description: Введите адрес видеоролика на ютубе
+pages:
+- content/blog/никогда-не-сдавайся.md
