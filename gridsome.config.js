@@ -54,22 +54,7 @@ module.exports = {
           }
         }
       }
-    },
-	{
-      use: 'gridsome-plugin-netlify-cms',
-      options: {
-		modulePath: 'src/admin/index.js',
-		configPath: 'src/admin/config.yml',
-		htmlPath: 'src/admin/index.html',
-        publicPath: '/admin',
-		htmlTitle: 'My CMS',
-		enableIdentityWidget: false
-      }
-    },
-	{ 
-	  use: 'gridsome-plugin-netlify-cms-paths',
-	  options: { contentTypes: ['Blog'] }
-	}
+    }
   ],
   transformers: {
     remark: {
