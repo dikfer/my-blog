@@ -44,3 +44,4 @@ fields:
   description: Введите адрес видеоролика на ютубе
 pages:
 - content/blog/никогда-не-сдавайся.md
+- content/blog/ноый.md
