@@ -18,7 +18,7 @@
     "gridsome-plugin-netlify-cms-paths": "^0.3.1",
     "gridsome-plugin-tailwindcss": "^2.2.41",
     "gridsome-source-static-meta": "github:noxify/gridsome-source-static-meta#master",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "netlify-cms": "^2.10.45",
     "node-sass": "^4.13.1",
     "pluralize": "^8.0.0",
